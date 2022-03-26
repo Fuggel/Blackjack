@@ -1,0 +1,60 @@
+/* HTML Elements */
+html,
+body {
+  background-color: #f9fcfb;
+}
+
+table,
+th,
+td {
+  padding: 5px;
+  border: 2px solid #fff;
+}
+
+/* Containers */
+.container-1 {
+  width: 95%;
+  margin: 100px auto;
+  text-align: center;
+  border: 1px solid #000;
+  background-color: #aa2b1d;
+  color: #fff;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  display: flex;
+  border: 1px solid #000;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+  background-color: #00541a;
+  color: #fff;
+}
+
+.flex-blackjack-row-1 div {
+  border: 1px solid #000;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+  height: 350px;
+}
+
+.flex-blackjack-row-1 img {
+  width: 25%;
+  padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+  border: 1px solid #000;
+}
+
+.flex-blackjack-row-2 div {
+  padding: 10px;
+}
